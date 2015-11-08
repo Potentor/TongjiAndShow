@@ -1,0 +1,67 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <include layout="@layout/include_title_bar" />
+
+    <FrameLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+    </FrameLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginBottom="2dp"
+        android:background="@color/split_line" />
+
+    <RadioGroup
+        android:id="@+id/rg_navi"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rb_scenes"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/ic_my_scene"
+            android:gravity="center"
+            android:text="@string/main_bottom_my_scene"
+            android:textColor="@drawable/clr_checkable_text"
+            android:textSize="12sp" />
+
+        <RadioButton
+            android:id="@+id/rb_spread"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/ic_spread"
+            android:gravity="center"
+            android:text="@string/main_bottom_my_spread"
+            android:textColor="@drawable/clr_checkable_text"
+            android:textSize="12sp" />
+
+        <RadioButton
+            android:id="@+id/rb_statistics"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/ic_gather_data"
+            android:gravity="center"
+            android:text="@string/main_bottom_statistics"
+            android:textColor="@drawable/clr_checkable_text"
+            android:textSize="12sp" />
+    </RadioGroup>
+</LinearLayout>

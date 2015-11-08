@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="45dp"
+    android:gravity="center_vertical"
+    android:clickable="true"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="13sp"
+        android:padding="3dp"
+        android:textColor="#009C87"
+        android:gravity="center_vertical"
+        android:text="姓名："/>
+
+    <TextView
+        android:id="@+id/customer_list_tv_name"
+        android:layout_marginLeft="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="13sp"
+        android:padding="3dp"
+        android:gravity="center_vertical"
+        android:text="晓明一"/>
+
+    <ImageView
+        android:clickable="false"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:paddingRight="8dp"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:scaleType="fitEnd"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_left_arrow"
+        />
+
+
+
+</LinearLayout>

@@ -1,0 +1,90 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/startentry_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    </android.support.v4.view.ViewPager>
+
+    <LinearLayout
+        android:layout_marginBottom="10dp"
+        android:id="@+id/startentry_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#00000000"
+        android:gravity="center|top">
+
+        <Button
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:onClick="login"
+            android:text="登录"/>
+
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:onClick="regist"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="注	册"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_above="@id/startentry_button"
+        android:layout_width="match_parent"
+        android:layout_height="80dip"
+        android:background="#00000000"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <View
+            android:id="@+id/startentry_dot0"
+            android:background="@drawable/dot_focused"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_marginRight="1.5dp"
+            android:layout_marginLeft="1.5dp"
+            />
+
+        <View
+            android:id="@+id/startentry_dot1"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:background="@drawable/dot_normal"
+            android:layout_marginRight="1.5dp"
+            android:layout_marginLeft="1.5dp" />
+
+        <View
+            android:id="@+id/startentry_dot2"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:background="@drawable/dot_normal"
+            android:layout_marginRight="1.5dp"
+            android:layout_marginLeft="1.5dp" />
+
+        <View
+            android:id="@+id/startentry_dot3"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:background="@drawable/dot_normal"
+            android:layout_marginRight="1.5dp"
+            android:layout_marginLeft="1.5dp"/>
+        <View
+            android:id="@+id/startentry_dot4"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:background="@drawable/dot_normal"
+            android:layout_marginRight="1.5dp"
+            android:layout_marginLeft="1.5dp"/>
+    </LinearLayout>
+
+</RelativeLayout>

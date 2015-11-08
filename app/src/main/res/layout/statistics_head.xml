@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:paddingLeft="@dimen/statistics_ll_margin_left"
+        android:background="#ECECEC"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/statistics_ll_height">
+
+        <TextView
+            android:gravity="center_vertical"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="15"
+            android:text="  我的场景"
+            android:textSize="@dimen/statisics_tvsize"
+            android:textColor="#626262" />
+
+        <TextView
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="12"
+            android:text="收到的总数据"
+            android:textSize="@dimen/statisics_tvsize"
+            android:textColor="#626262" />
+
+    </LinearLayout>
+
+</LinearLayout>

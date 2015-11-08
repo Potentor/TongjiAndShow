@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ydhl.cjl" >
+
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:name=".CJLApplication"
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme.NoActionBar" >
+        <activity
+            android:name=".activity.FirstOpenActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.SplashActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+
+        </activity>
+        <activity
+            android:name=".activity.MainActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+
+        <activity
+            android:name=".activity.LoginActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".activity.RegisterActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.ShareActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.CollectDataActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.SceneShowActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.ClientListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.ClientInfoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.UserCentralActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.RetrievePasswordActivity"
+            android:screenOrientation="portrait" />
+        <!-- ###################注册SDK使用的Activity###################### -->
+        <!-- 分享编辑页 -->
+        <activity
+            android:name="com.umeng.socialize.view.ShareActivity"
+            android:configChanges="orientation|keyboard"
+            android:launchMode="singleTask"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.UMDialog"
+            android:windowSoftInputMode="stateVisible|adjustResize" />
+
+        <!-- ############ QQ空间和QQ SSO授权的Activity注册 ############ -->
+        <activity
+            android:name="com.tencent.tauth.AuthActivity"
+            android:launchMode="singleTask"
+            android:noHistory="true"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- 100424468，如果你使用的公用账号，则不需要修改；否则修改成你在QQ开放平台申请的 APP ID -->
+                <data android:scheme="tencent100424468" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.tencent.connect.common.AssistActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <!-- ############ 微信授权的Activity注册 ############ -->
+            android:name=".wxapi.WXEntryActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <!-- ############ FeedBack Activity ############ -->
+        <activity
+            android:name="com.umeng.fb.ConversationActivity"
+            android:screenOrientation="portrait" />
+
+        <!-- ###################添加UmengAppkey###################### -->
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="554d639567e58e1126000c52" />
+
+        <activity
+            android:name=".activity.SingleSceneActivity"
+            android:label="@string/title_activity_single_scene"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".activity.CustomerInfoActivity"
+            android:label="@string/title_activity_customer_info"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".activity.CustomerListActivity"
+            android:label="@string/title_activity_customer_list"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".activity.SceneActivity"
+            android:label="@string/title_activity_scene"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".activity.RegisterProtocolActivity"
+            android:label="@string/title_activity_register_protocol"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".activity.AboutUsActivity"
+            android:label="@string/title_activity_about_us"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".activity.ShowScenesActivity"
+            android:label="@string/title_activity_show_scenes"
+            android:screenOrientation="portrait" >
+        </activity>
+
+
+    </application>
+
+</manifest>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:paddingLeft="@dimen/item_spread_ll_padding_left"
+    android:layout_marginTop="@dimen/item_spread_ll_padding_top"
+    android:background="@android:color/transparent"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/item_spread_ll_height">
+
+    <TextView
+        android:id="@+id/spread_lv_tv_scenes"
+        android:gravity="center_vertical"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="15"
+        android:textColor="#626262"
+        android:textSize="@dimen/item_spread_tvsize"
+        android:text="这是我的第一个场景" />
+
+    <TextView
+        android:id="@+id/spread_lv_tv_num"
+        android:gravity="center"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="6"
+        android:textSize="@dimen/item_spread_tvsize"
+        android:textColor="#009C87"
+        android:text="" />
+
+
+
+</LinearLayout>

@@ -1,0 +1,10 @@
+/*
+!/app
+!.gitignore
+!settings.gradle
+!local.properties
+/app/build
+/app/app.iml
+/app/proguard-rules.pro
+/app/.gitignore
+/app/app-release.apk

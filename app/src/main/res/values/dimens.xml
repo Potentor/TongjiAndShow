@@ -1,0 +1,86 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="menu_shadow_width">15dp</dimen>
+    <dimen name="menu_offset">200dp</dimen>
+
+    <dimen name="button_width">100dp</dimen>
+
+    <dimen name="item_scenes_tvsize">12sp</dimen>
+    <dimen name="item_scenes_ll_height">140dp</dimen>
+    <dimen name="item_scenes_sv_w_h">110dp</dimen>
+    <dimen name="item_scenes_tvsize_title">14sp</dimen>
+    <dimen name="item_scenes_tvleft_margin_left">10dp</dimen>
+    <dimen name="item_scenes_tvright_margin_left">20dp</dimen>
+
+    <dimen name="spread_ll_head">200dp</dimen>
+    <dimen name="spread_tv_head_tvsize">13sp</dimen>
+    <dimen name="spread_iv_circle_padding_r_l_b">10dp</dimen>
+    <dimen name="spread_iv_circle_padding_top">15dp</dimen>
+    <dimen name="spread_ll_height">55dp</dimen>
+    <dimen name="spread_ll_padding_left">30dp</dimen>
+
+
+
+    <dimen name="item_spread_ll_height">55dp</dimen>
+    <dimen name="item_spread_tvsize">14sp</dimen>
+    <dimen name="item_spread_ll_padding_left">15dp</dimen>
+    <dimen name="item_spread_ll_padding_top">20dp</dimen>
+
+
+    <dimen name="statisics_tvsize">13sp</dimen>
+    <dimen name="statistics_ll_height">55dp</dimen>
+    <dimen name="statistics_ll_margin_top">10dp</dimen>
+    <dimen name="statistics_ll_margin_left">15dp</dimen>
+
+    <dimen name="item_statistics_ll_padding_left">15dp</dimen>
+    <dimen name="item_statistics_ll_padding_top">20dp</dimen>
+
+    <dimen name="login_logo_h_w">130dp</dimen>
+    <dimen name="login_et_margin_top">20dp</dimen>
+    <dimen name="login_bt_margin_top">40dp</dimen>
+    <dimen name="login_rl_margin_top">8dp</dimen>
+    <dimen name="login_rl_logo_padding">20dp</dimen>
+    <dimen name="login_et_margin_r_l">20dp</dimen>
+    <dimen name="login_et_drawable_padding">5dp</dimen>
+    <dimen name="login_tv_padding_l_r">10dp</dimen>
+    <dimen name="login_et_first_margin_top">20dp</dimen>
+
+
+    <dimen name="single_ll_height">55dp</dimen>
+    <dimen name="single_tvsize">13sp</dimen>
+    <dimen name="single_ll_padding_t_b">8dp</dimen>
+    <dimen name="single_ll_padding_l">15dp</dimen>
+    <dimen name="single_ll_second_margin_top">20dp</dimen>
+
+
+
+    <dimen name="item_collect_rl_height">63dp</dimen>
+    <dimen name="item_collect_tv_width">100dp</dimen>
+    <dimen name="item_collect_tvsize">15sp</dimen>
+    <dimen name="item_collect_iv_height">40dp</dimen>
+    <dimen name="item_collect_iv_padding">10dp</dimen>
+
+    <dimen name="menu_logo_w_h">110dp</dimen>
+    <dimen name="menu_logo_margin_top">60dp</dimen>
+    <dimen name="menu_logo_tv_tvsize">13sp</dimen>
+    <dimen name="menu_logo_tv_margin_top">10dp</dimen>
+    <dimen name="menu_company_height">30dp</dimen>
+    <dimen name="menu_company_margin_bottom">70dp</dimen>
+    <dimen name="menu_setting_w_h">30dp</dimen>
+    <dimen name="menu_setting_margin_bottom">30dp</dimen>
+
+
+    <dimen name="about_us_iv_logo_margin_top">15dp</dimen>
+    <dimen name="about_us_iv_logo_height">45dp</dimen>
+    <dimen name="about_us_tv_title_tvsize">19sp</dimen>
+    <dimen name="about_us_tv_content_tvsize">13sp</dimen>
+    <dimen name="about_us_tv_content_margin_top">10dp</dimen>
+    <dimen name="about_us_tv_titile_margin_top">15dp</dimen>
+    <dimen name="about_us_iv_margin_show_l_r">50dp</dimen>
+    <dimen name="about_us_iv_show_w">300dp</dimen>
+
+
+
+</resources>

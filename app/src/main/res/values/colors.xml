@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFF</color>
+    <color name="split_line">#999</color>
+    <color name="bright_blue">#08A1EF</color>
+    <color name="light_gray">#BBB</color>
+    <color name="title_background">#009C88</color>
+
+    <color name="button_border">#FFF</color>
+    <color name="button_solid">#009C88</color>
+    <color name="button_gray">#DEDEDE</color>
+    <color name="button_text_enable">#FFF</color>
+    <color name="button_text_disable">#7B7B7B</color>
+
+    <color name="white_text_normal">#FFF</color>
+    <color name="white_text_dark">#C3DBF0</color>
+
+    <color name="navigate_text_active">#009C88</color>
+    <color name="navigate_text_inactive">#979797</color>
+
+    <color name="bg_background">#FAF9F8</color>
+    <color name="item_scenes_tv_color_green">#379C00</color>
+    <color name="item_scenes_tv_color_black">#575555</color>
+
+    <color name="about_us_tv_title">#009D86</color>
+    <color name="about_us_tv_content">#575555</color>
+</resources>

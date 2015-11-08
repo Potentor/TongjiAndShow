@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">微场景</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="main_bottom_my_scene">我的场景</string>
+    <string name="main_bottom_my_spread">展示统计</string>
+    <string name="main_bottom_statistics">数据收集</string>
+    <string name="title_activity_login">LoginActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="title_activity_share">ShareActivity</string>
+    <string name="title_activity_user_list">UserListActivity</string>
+    <string name="title_activity_client_info">ClientInfoActivity</string>
+    <string name="title_activity_user_central">UserCentralActivity</string>
+    <string name="title_activity_retrieve_password">RetrievePasswordActivity</string>
+    <string name="title_activity_single_scene">SingleSceneActivity</string>
+    <string name="title_activity_customer_info">CustomerInfoActivity</string>
+    <string name="title_activity_customer_list">CustomerListActivity</string>
+    <string name="title_activity_scene">SceneActivity</string>
+    <string name="title_activity_register_protocol">RegisterProtocolActivity</string>
+    <string name="titleBar_activity_clientInfo">客户信息</string>
+    <string name="titleBar_activity_clientList">客户列表</string>
+    <string name="titleBar_activity_register">注册</string>
+    <string name="Error_activity_register_email_regex">邮箱格式错误</string>
+    <string name="Error_activity_register_email_null">邮箱不能为空</string>
+    <string name="Error_activity_register_password_null">密码不能为空</string>
+    <string name="Error_activity_register_password_small">密码长度不能小于6位</string>
+    <string name="Error_activity_register_password_not_equal">两次密码输入不一致</string>
+    <string name="Error_activity_register_input_success">正在注册。。。</string>
+    <string name="Error_activity_register_web">网络连接错误</string>
+    <string name="titleBar_activity_register_protocol">场景录用户注册协议</string>
+    <string name="titleBar_activity_retrieve_password">找回密码</string>
+    <string name="titleBar_activity_scene_show">场景展示</string>
+    <string name="titleBar_activity_user_central">设置</string>
+    <string name="title_activity_about_us">AboutUsActivity</string>
+    <string name="about_us_tv_title">我的移动场景自营销管家</string>
+    <string name="about_us_tv_content">精美展现，社交推广，数据收集，持续营销\n
+        我的移动时代最强大的移动场景自营销管家</string>
+    <string name="title_activity_show_scenes">ShowScenesActivity</string>
+    <string name="title_activity_flash">FlashActivity</string>
+    <string name="title_activity_first_open">FirstOpenActivity</string>
+</resources>

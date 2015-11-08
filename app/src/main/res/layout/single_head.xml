@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical"
+android:background="@color/bg_background"
+android:layout_width="match_parent"
+android:layout_height="match_parent">
+
+<LinearLayout
+    android:id="@+id/single_scene_ll_data"
+    android:paddingLeft="@dimen/single_ll_padding_l"
+    android:paddingTop="@dimen/single_ll_padding_t_b"
+    android:paddingBottom="@dimen/single_ll_padding_t_b"
+    android:background="#ECECEC"
+    android:clickable="false"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/single_ll_height">
+
+    <TextView
+        android:gravity="center_vertical"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="15"
+        android:textSize="@dimen/single_tvsize"
+        android:textColor="#626262"
+        android:drawableLeft="@mipmap/ic_customer"
+        android:text="  整理出的客户数据" />
+
+    <TextView
+        android:id="@+id/single_scene_tv_data"
+        android:gravity="center"
+        android:layout_width="0dp"
+        android:layout_weight="12"
+        android:layout_height="match_parent"
+        android:textColor="#626262"
+        android:textSize="@dimen/single_tvsize" />
+
+</LinearLayout>
+
+<LinearLayout
+    android:paddingLeft="@dimen/single_ll_padding_l"
+    android:layout_marginTop="@dimen/single_ll_second_margin_top"
+    android:background="#ECECEC"
+    android:layout_width="match_parent"
+    android:clickable="true"
+    android:layout_height="@dimen/single_ll_height">
+
+    <TextView
+        android:gravity="center_vertical"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="15"
+        android:text="  表单列表"
+        android:textSize="@dimen/single_tvsize"
+        android:textColor="#626262" />
+
+    <TextView
+        android:gravity="center"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="12"
+        android:text="数据"
+        android:textSize="@dimen/single_tvsize"
+        android:textColor="#626262" />
+
+</LinearLayout>
+
+</LinearLayout>

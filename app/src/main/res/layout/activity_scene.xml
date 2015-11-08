@@ -1,0 +1,74 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    tools:context="com.ydhl.cjl.activity.SceneActivity">
+
+    <include layout="@layout/include_title_bar" />
+
+    <LinearLayout
+        android:id="@+id/ll_client"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:background="#ECECEC"
+
+        android:layout_width="match_parent"
+        android:layout_height="48dp">
+
+        <TextView
+            android:padding="10dp"
+            android:textSize="18sp"
+            android:gravity="center_vertical"
+            android:layout_weight="1"
+
+            android:drawableLeft="@mipmap/ic_customer"
+            android:text="整理出的客户数据"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:padding="10dp"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:text="523"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:background="#ECECEC"
+
+        android:layout_width="match_parent"
+        android:layout_height="48dp">
+
+        <TextView
+            android:paddingLeft="20dp"
+            android:textSize="18sp"
+            android:gravity="center_vertical"
+            android:layout_weight="1"
+            android:text="表单列表"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:padding="10dp"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:text="数据"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <ListView
+        android:id="@+id/lv_form"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></ListView>
+
+
+</LinearLayout>

@@ -1,0 +1,72 @@
+<resources>
+
+    <!-- Base application theme. -->
+
+
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:buttonStyle">@style/AppTheme.Button</item>
+        <item name="buttonStyle">@style/AppTheme.Button</item>
+
+        <item name="android:editTextStyle">@style/AppTheme.EditText</item>
+        <item name="editTextStyle">@style/AppTheme.EditText</item>
+
+        <item name="android:checkboxStyle">@style/AppTheme.CheckBox</item>
+        <item name="checkboxStyle">@style/AppTheme.CheckBox</item>
+    </style>
+
+    <style name="AppBaseTheme.NoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:buttonStyle">@style/AppTheme.Button</item>
+        <item name="buttonStyle">@style/AppTheme.Button</item>
+
+        <item name="android:editTextStyle">@style/AppTheme.EditText</item>
+        <item name="editTextStyle">@style/AppTheme.EditText</item>
+
+        <item name="android:checkboxStyle">@style/AppTheme.CheckBox</item>
+        <item name="checkboxStyle">@style/AppTheme.CheckBox</item>
+    </style>
+
+    <style name="AppTheme" parent="AppBaseTheme">
+
+    </style>
+
+    <style name="AppTheme.NoActionBar" parent="AppBaseTheme.NoActionBar">
+
+    </style>
+
+    <style name="AppTheme.ActionBar" parent="Widget.AppCompat.ActionBar">
+        <item name="android:background">@color/bright_blue</item>
+        <item name="background">@color/bright_blue</item>
+    </style>
+
+    <!--Button Style -->
+    <style name="AppTheme.Button" parent="@android:style/Widget.Holo.Button">
+        <item name="android:background">@drawable/bg_button</item>
+        <item name="android:textColor">@color/white</item>
+
+        <item name="background">@drawable/bg_button</item>
+        <item name="textColor">@color/white</item>
+    </style>
+
+    <!--EditText Style -->
+    <style name="AppTheme.EditText" parent="@android:style/Widget.Holo.EditText">
+        <item name="android:background">@drawable/bg_edit</item>
+        <item name="android:textColor">@color/white</item>
+
+        <item name="background">@drawable/bg_edit</item>
+        <item name="textColor">@color/white</item>
+    </style>
+
+    <!--CheckBox Style -->
+    <style name="AppTheme.CheckBox" parent="@android:style/Widget.Holo.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/btn_checkbox</item>
+        <item name="android:textColor">@color/white</item>
+
+        <item name="button">@drawable/btn_checkbox</item>
+        <item name="textColor">@color/white</item>
+    </style>
+
+    <style name="widget">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+</resources>

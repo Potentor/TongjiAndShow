@@ -1,0 +1,108 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/bg_activity"
+    android:theme="@android:style/Theme.NoTitleBar"
+    tools:context="com.ydhl.cjl.activity.RegisterActivity">
+
+    <include layout="@layout/include_title_bar"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/title"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="50dp">
+
+        <EditText
+
+            android:id="@+id/register_edit_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@mipmap/ic_email"
+            android:gravity="center_vertical"
+            android:hint=" 使用邮箱注册"
+            android:paddingLeft="5dp"
+            android:inputType="textEmailAddress"
+            android:textColorHint="@color/abc_secondary_text_material_dark"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/register_edit_password"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="false"
+            android:layout_below="@+id/register_edit_email"
+            android:layout_marginTop="20dp"
+            android:drawableLeft="@mipmap/ic_password"
+            android:gravity="center_vertical"
+            android:hint=" 输入密码"
+            android:paddingLeft="5dp"
+            android:inputType="textPassword"
+            android:textColorHint="@color/abc_secondary_text_material_dark"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/register_edit_maketrue_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/register_edit_password"
+            android:layout_marginTop="20dp"
+            android:drawableLeft="@mipmap/ic_password"
+            android:gravity="center_vertical"
+            android:hint=" 确认密码"
+            android:paddingLeft="5dp"
+            android:inputType="textPassword"
+            android:textColorHint="@color/abc_secondary_text_material_dark"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:id="@+id/ll"
+            android:layout_marginTop="20dp"
+            android:layout_below="@id/register_edit_maketrue_password"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <CheckBox
+
+                android:id="@+id/checkBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:textSize="13sp"
+                android:singleLine="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white_text_normal"
+                android:text="我已经阅读并同意《场景鹿用户注册协议》"
+                android:id="@+id/tv_protocol" />
+
+        </LinearLayout>
+
+
+        <Button
+            android:layout_marginTop="20dp"
+            android:id="@+id/register_btn_regist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ll"
+            android:enabled="true"
+            android:text="注册"
+            android:textColor="@drawable/clr_button_text" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg_background"
+    tools:context="com.ydhl.cjl.activity.CollectDataActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/title_background"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+       >
+
+        <ImageView
+            android:id="@+id/collect_iv_back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:src="@mipmap/ic_back_arrow" />
+
+        <TextView
+            android:id="@+id/collect_tv_title"
+            style="@style/TextAppearance.AppCompat.Title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:text="收集数据"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+
+    <ExpandableListView
+        android:paddingLeft="16dp"
+        android:id="@+id/collect_el_1"
+        android:listSelector="@drawable/bg_collection_listview_item"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>

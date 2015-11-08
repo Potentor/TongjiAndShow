@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#515050"
+    >
+
+    <com.ydhl.cjl.view.RoundedImageView
+        android:id="@+id/menu_iv_potrait"
+        android:layout_width="@dimen/menu_logo_w_h"
+        android:layout_height="@dimen/menu_logo_w_h"
+        android:layout_centerHorizontal="true"
+        android:scaleType="fitXY"
+        android:src="#998866"
+        app:riv_corner_radius="100dip"
+        app:riv_border_width="1dip"
+        android:padding="10dp"
+        android:layout_marginTop="@dimen/menu_logo_margin_top"
+        app:riv_border_color="#007755"
+        />
+
+
+    <TextView
+        android:id="@+id/menu_tv_account"
+        android:layout_below="@id/menu_iv_potrait"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="我的账号"
+        android:textColor="#FFFFFF"
+        android:textSize="@dimen/menu_logo_tv_tvsize"
+        android:layout_marginTop="@dimen/menu_logo_tv_margin_top"
+        android:layout_centerHorizontal="true"
+        />
+
+
+
+
+    <ImageView
+        android:id="@+id/menu_iv_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/menu_company_height"
+        android:src="@mipmap/ic_logo"
+        android:scaleType="fitCenter"
+        android:layout_marginBottom="@dimen/menu_company_margin_bottom"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:id="@+id/menu_iv_setting"
+        android:layout_marginBottom="@dimen/menu_setting_margin_bottom"
+        android:layout_width="@dimen/menu_setting_w_h"
+        android:layout_height="@dimen/menu_setting_w_h"
+        android:src="@mipmap/ic_setting"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        />
+
+
+
+
+</RelativeLayout>
